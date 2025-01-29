@@ -25,7 +25,7 @@ SECRET_KEY = '#rr-l!9-+hbd!*$6a@*fge!7%o=5k-#^e%g(jreg22bzr&siz6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['imageuploader-gmbvgfdsdwhdgrg9.uksouth-01.azurewebsites.net']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
